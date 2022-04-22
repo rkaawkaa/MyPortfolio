@@ -2,6 +2,10 @@ const sections = document.querySelectorAll('.section');
 const sectBtns  = document.querySelectorAll('.controlls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
+const btnSubmit = document.querySelector('.btn-submit');
+btnSubmit.addEventListener('click', () => {
+    alert('Votre message a été envoyé !');
+})
 
 function PageTransitions(){
     //Button click active class
