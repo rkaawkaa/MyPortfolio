@@ -1,0 +1,233 @@
+@media screen and (max-width: 1500px) {
+    .portfolios {
+        grid-template-columns: 1fr 1fr;
+    }
+    .section {
+        padding: 3rem 8rem;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .contact-content-con {
+        flex-direction: column;
+        width: 90%;
+        .right-contact {
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+
+    .contact-content-con .right-contact .i-c-2 {
+        flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child {
+        margin-left:0;
+        margin-top: 1.5rem;
+    }
+    .section {
+        padding: 2rem 2.5rem !important;
+    }
+    header {
+        padding: 0 !important;
+    }
+    .interests-content, .portfolios {
+        padding: 0 3.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+
+    .header-content .right-header {
+        padding-right: 6rem;
+    }
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            padding-top: 2.5rem;
+        }
+    }
+     
+    
+    
+    .interests {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .main-title {
+        h2 {
+            font-size: 4rem;
+            span{
+                font-size: 4rem;
+            }
+            .bg-text {
+                font-size:5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:970px) {
+    .section {
+        padding: 4rem 6rem 7rem !important;
+    }
+    header {
+        padding: 0;
+
+    }
+    header .right-header {
+        padding: 0 !important;
+    }
+
+    .theme-btn  {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header {
+        .h-shape {
+            display: none;
+        }
+    }
+    .right-header {
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name {
+            font-size: 2.5rem !important;
+        }
+    }
+    .header-content .left-header .image {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .controlls {
+        top: auto;
+        bottom:0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+        .control {
+            margin: .8rem 2rem;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .section {
+        padding: 3rem 2rem 7rem !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .portfolios {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .interests {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+  
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+        .left-about {
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+        
+    }
+    .about-stats {     
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+
+   
+
+    .contact-content-con {
+        flex-direction: column;
+        .right-contact {
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+    .contact-content-con .right-contact .i-c-2 {
+        flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child {
+        margin-left:0;
+        margin-top: 1.5rem;
+    }
+    
+    .main-title {
+        h2 {
+            font-size: 2rem;
+            span {
+                font-size: 2.5rem;
+            }
+            .bg-text {
+                font-size:3.0rem;
+            }
+        }
+    }
+
+    .section {
+        padding: 2rem 2.5rem !important;
+    }
+    .btn-submit {
+        margin-bottom: 60px;
+
+    }
+
+
+    
+}
+
+@media screen and (max-width: 525px) {
+    html {
+        font-size: 90%;
+    }
+    .controlls {
+        
+        .control {
+            margin: .8rem .4rem;
+        }
+    }
+    .section {
+        padding: 2rem 1.3rem !important;
+    }
+    .interests-content, .portfolios {
+        padding: 2.6 1.6rem;
+    }
+}
+
+@media screen and (max-width: 350px) { 
+    .contact-content-con .left-contact .contact-info .icon {
+        grid-template-columns: 25px 1fr;
+    }
+    .contact-info{
+
+     font-size: 0.95rem;
+    }
+}
+
