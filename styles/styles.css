@@ -980,6 +980,9 @@ section {
   .section {
     padding: 3rem 8rem;
   }
+  .portfolios .portfolio-item .hover-item h3 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -1117,6 +1120,12 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+  .portfolios {
+    padding: 0 1.2rem;
+  }
+  .portfolios .portfolio-item {
+    min-height: 450px;
+  }
   .about-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1185,6 +1194,14 @@ section {
   }
   .interests-content, .portfolios {
     padding: 2.6 1.6rem;
+  }
+  .portfolios .portfolio-item .hover-item h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .portfolios .portfolio-item .hover-item .hover-text {
+    margin-top: 1.5rem;
+    font-size: 1rem;
   }
 }
 
