@@ -1177,6 +1177,9 @@ section {
   .section {
     padding: 2rem 2.5rem !important;
   }
+  #contact {
+    padding: 7rem 2.5rem !important;
+  }
   .btn-submit {
     margin-bottom: 60px;
   }
