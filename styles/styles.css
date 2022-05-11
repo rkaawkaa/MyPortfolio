@@ -1014,7 +1014,7 @@ section {
     padding: 0 !important;
   }
   .interests-content, .portfolios {
-    padding: 0 3.2rem;
+    padding: 1rem 3.2rem;
   }
 }
 
@@ -1120,11 +1120,11 @@ section {
 }
 
 @media screen and (max-width: 600px) {
-  .portfolios {
-    padding: 0 1.2rem;
+  .interests-content, .portfolios {
+    padding: 1rem 1rem;
   }
   .portfolios .portfolio-item {
-    min-height: 450px;
+    min-height: 300px;
   }
   .about-container {
     -ms-grid-columns: 1fr;
