@@ -605,6 +605,10 @@ section {
   color: var(--color-white);
 }
 
+.portfolios .portfolio-item .hover-item .icons .icon i .fa-chrome {
+  color: white;
+}
+
 .portfolios .portfolio-item .hover-item .icons .icon:hover {
   background-color: var(--color-white);
 }

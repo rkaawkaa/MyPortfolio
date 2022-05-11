@@ -5,6 +5,9 @@
     .section {
         padding: 3rem 8rem;
     }
+    .portfolios .portfolio-item .hover-item h3 {
+        text-align: center;
+    }
 }
 
 
@@ -218,6 +221,16 @@
     }
     .interests-content, .portfolios {
         padding: 2.6 1.6rem;
+    }
+    .portfolios .portfolio-item .hover-item {
+        h3 {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .hover-text {
+            margin-top: 1.5rem;
+            font-size: 1rem;
+        }
     }
 }
 
