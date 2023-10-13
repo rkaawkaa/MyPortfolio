@@ -1225,6 +1225,10 @@ section {
     margin-top: 1.5rem;
     font-size: 1rem;
   }
+
+  .contact-info {
+    font-size: 0.97rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -1233,7 +1237,7 @@ section {
         grid-template-columns: 25px 1fr;
   }
   .contact-info {
-    font-size: 0.95rem;
+    font-size: 0.90rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
