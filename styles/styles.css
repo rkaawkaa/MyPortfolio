@@ -1217,6 +1217,10 @@ section {
     font-size: 1.2rem;
     text-align: center;
   }
+
+  .portfolios {
+    margin-bottom: 5rem;
+  }
   .portfolios .portfolio-item .hover-item .hover-text {
     margin-top: 1.5rem;
     font-size: 1rem;
