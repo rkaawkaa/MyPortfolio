@@ -309,6 +309,11 @@ section {
   line-height: 2rem;
 }
 
+.header-content .right-header p span {
+  color: var(--color-secondary);
+  font-weight: 900;
+}
+
 .about-container {
   display: -ms-grid;
   display: grid;
